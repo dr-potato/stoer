@@ -1,0 +1,40 @@
+// *************************************
+//
+// Settings
+// -> Fonts, Variables
+//
+// *************************************
+
+// -------------------------------------
+// @font-face
+// -------------------------------------
+
+// Open Sans
+@include web-fonts(("Open Sans": ("400", "400 italic", "600", "700", "700 italic")));
+
+// -------------------------------------
+// Variables
+// -------------------------------------
+
+// ----- Colors ----- //
+
+$c-black : #1B1C17;
+$c-blue  : #0070AF;
+$c-green : #BED82F;
+$c-white : #EFEFEF;
+
+// ----- Layout ----- //
+$l-whiteSpace: 0.5rem;
+$l-insideGutter: 1rem;
+
+// Borders & Box-shadows
+$l-border         : 3px solid $c-green;
+$l-borderRadius   : 3px;
+$l-boxShadow      : 0 1px 2px rgba($c-black, 0.25);
+
+// ----- Text ----- //
+
+$t-fontFamily       : 'Roboto', $helvetica;
+$t-headerFontFamily : 'Roboto', $helvetica;
+$t-fontSize         : 16px;
+$t-lineHeight       : 1.5;

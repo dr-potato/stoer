@@ -1,0 +1,84 @@
+// *************************************
+//
+// Footer
+// -> A module for the footer
+//
+// *************************************
+
+.Footer {
+  color: $c-black;
+  fill: $c-black;
+  background: $c-green;
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// Module-variableName
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// .Module--modifierName
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+// .is-module-state
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- Nav ----- //
+
+.Footer-nav {
+  @extend .u-gridContainer;
+  padding: rem(20px) 0;
+}
+
+// ----- Legal ----- //
+
+.Footer-legal {
+  @extend .u-gridRow;
+  padding-top: rem(15px);
+  padding-bottom: rem(15px);
+  color: $c-white;
+  fill: $c-white;
+  background: lighten($c-black,5%);
+  font-size: 75%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+// ----- List ----- //
+
+.Footer-list {
+  font-size: rem(12px);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+// ----- Link ----- //
+
+.Footer-link {
+  color: $c-white;
+}
+
+// ----- Column ----- //
+
+.Footer-column {
+  @include span-columns(3);
+  &:not(:first-of-type) {
+    padding: 0 rem(10px);
+  }
+}

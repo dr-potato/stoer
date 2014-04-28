@@ -15,6 +15,6 @@ module.exports = {
     src: 'deploy',
     dest: '/wp-content/themes/slate_stoer',
     simple: true,
-    useList: true
+    useList: false
   }
 };

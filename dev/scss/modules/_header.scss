@@ -1,0 +1,59 @@
+// *************************************
+//
+// Header
+// -> Main site header
+//
+// *************************************
+
+.Header {
+  background-image: url("../img/bg-visitekaartjes.jpg");
+  background-size: cover;
+  padding-top: 1rem;
+  border-bottom: 5px solid $c-green;
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// -variable
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// .Module--modifierName
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+// .is-module-state
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- Nav bar ----- //
+
+.Header-nav {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background     : rgba($c-white, 0.5);
+}
+
+// ----- Logo bar ----- //
+
+.Header-logo {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace * 4;
+  padding-top    : $l-whiteSpace;
+}
+

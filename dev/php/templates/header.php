@@ -36,5 +36,16 @@
   </head>
   <body <?php body_class(); ?> >
 
-    <!-- Main navigation -->
-    <?php include 'includes/navigation.php'; ?>
+  <header class="Header">
+    <div class="Header-nav">
+      <div class="u-gridContainer">
+        <!-- Main navigation -->
+        <?php include 'includes/navigation.php'; ?>
+      </div>
+    </div>
+    <div class="Header-logo">
+      <div class="u-gridContainer">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Stoer Advocatuur Logo">
+      </div>
+    </div>
+  </header>
