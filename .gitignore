@@ -1,0 +1,22 @@
+# Cache and install
+.grunt/
+.sass-cache/
+node_modules/
+bower_components/
+
+# Build
+build/*
+deploy/*
+
+# Libraries
+lib/*
+!lib/scss/wp
+!lib/scss/_libs-override.scss
+
+# Private data
+.ftppass
+
+# System files
+*.swp
+[Tt]humbs.db
+*.DS_Store
