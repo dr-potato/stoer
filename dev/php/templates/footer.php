@@ -5,14 +5,14 @@
       <ul class="Footer-list">
         <li>
           <svg class="Icon Icon--inline" viewBox="0 0 128 128"><use xlink:href="#icon-phone"></use></svg>
-          <span>071 - 76 00 276</span>
+          <span><a href="tel:0717600276">071 - 76 00 276</a></span>
         </li>
         <li>
-          <svg class="Icon Icon--inline" viewBox="0 0 128 128"><use xlink:href="#icon-phone"></use></svg>
+          <svg class="Icon Icon--inline" viewBox="0 0 128 128"><use xlink:href="#icon-print"></use></svg>
           <span>071 - 76 00 277</span>
         </li>
         <li>
-          <svg class="Icon Icon--inline" viewBox="0 0 128 128"><use xlink:href="#icon-phone"></use></svg>
+          <svg class="Icon Icon--inline" viewBox="0 0 128 128"><use xlink:href="#icon-office"></use></svg>
           <address>Narmstraat 3<br>2312 BC Leiden</address>
         </li>
       </ul>
@@ -23,13 +23,13 @@
     </div>
     <div class="Footer-column">
       <h5>Social</h5>
-      <a href="">
+      <a href="#" class="u-hideUnderline Footer-social">
         <svg class="Icon Icon--alone" viewBox="0 0 128 128"><use xlink:href="#icon-facebook2"></use></svg>
       </a>
-      <a href="">
+      <a href="#" class="u-hideUnderline Footer-social">
         <svg class="Icon Icon--alone" viewBox="0 0 128 128"><use xlink:href="#icon-twitter2"></use></svg>
       </a>
-      <a href="">
+      <a href="#" class="u-hideUnderline Footer-social">
         <svg class="Icon Icon--alone" viewBox="0 0 128 128"><use xlink:href="#icon-linkedin"></use></svg>
       </a>
     </div>
@@ -38,7 +38,13 @@
   <div class="Footer-legal">
     <div class="u-gridContainer">
         <div class="u-textCenter">
-          &copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Algemene voorwaarden - Built by Lokaalgevonden
+          <ul class="Footer-list Footer-list--inline">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Algemene voorwaarden</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?></li>
+            <li>Built by <a href="#">Lokaalgevonden</a></li>
+          </ul>
         </div>
       </div>
   </div>

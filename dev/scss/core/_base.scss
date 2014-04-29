@@ -10,11 +10,11 @@ html {
 }
 
 body {
-  background-image: url("../img/bg-metal.jpg");
-  color       : $c-black;
-  font-family : $t-fontFamily;
-  font-size   : 100%;
-  line-height : $t-lineHeight;
+  background-image : url("../img/bg-metal.png");
+  color            : $c-black;
+  font-family      : $t-fontFamily;
+  font-size        : 100%;
+  line-height      : $t-lineHeight;
 }
 
 // -------------------------------------
@@ -70,7 +70,7 @@ address {
 // -------------------------------------
 
 a {
-  color: $c-blue;
+  color: $c-black;
   text-decoration: none;
   &:hover,
   &:focus {

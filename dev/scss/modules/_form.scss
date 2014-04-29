@@ -1,12 +1,28 @@
 // *************************************
 //
-// Content
-// -> The main content module
+// Form
+// -> Default form elements
 //
 // *************************************
 
-.Content {
-  @include outer-container;
+.Form {
+  text-align: left;
+
+  label {
+    display: none;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5em;
+  }
+
+  textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5em;
+  }
 }
 
 // -------------------------------------
@@ -37,21 +53,8 @@
 // Submodules
 // -------------------------------------
 
-// ----- Article area ----- //
+// ----- Input fields ----- //
 
-.Content-articles {
-  @include span-columns(7);
-  margin-top: 2rem;
-}
-
-// ----- Sidebar area ----- //
-
-.Content-sidebar {
-  @include span-columns(4);
-  @include shift(1);
-  background    : $c-green;
-  margin-top    : 2rem;
-  margin-bottom : 2rem;
-  padding       : 0 1em;
-  text-align    : center;
+.gform_heading {
+    margin-bottom: 1rem;
 }

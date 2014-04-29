@@ -45,7 +45,7 @@
     </div>
     <div class="Header-logo">
       <div class="u-gridContainer">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Stoer Advocatuur Logo">
+        <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Stoer Advocatuur Logo"></a>
       </div>
     </div>
   </header>

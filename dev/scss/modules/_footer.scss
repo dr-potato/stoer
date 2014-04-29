@@ -68,6 +68,24 @@
   text-transform: uppercase;
 }
 
+.Footer-list--inline {
+
+  a {
+  color: $c-white;
+  }
+  li {
+    display: inline;
+    &::after {
+      content: "|";
+      margin-right: 1em;
+      margin-left: 1em;
+    }
+    &:last-of-type::after {
+      content: "";
+    }
+  }
+}
+
 // ----- Link ----- //
 
 .Footer-link {
@@ -81,4 +99,10 @@
   &:not(:first-of-type) {
     padding: 0 rem(10px);
   }
+}
+
+// ----- Social ----- //
+
+.Footer-social {
+  margin-right: 0.5rem;
 }

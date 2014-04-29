@@ -82,3 +82,21 @@
 .u-objRight {
   float: right;
 }
+
+// -------------------------------------
+// Links
+// -------------------------------------
+
+.u-hideUnderline {
+  &:hover {
+    text-decoration: none;
+    border: 0;
+  }
+}
+
+.u-dashedBottom {
+  border-bottom: 1px dashed $c-black;
+  &:hover {
+    text-decoration: none;
+  }
+}
