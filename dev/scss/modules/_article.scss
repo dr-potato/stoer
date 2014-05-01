@@ -19,25 +19,6 @@
 // Modifiers
 // -------------------------------------
 
-// ----- Inverted ----- //
-
-.Article--inverted {
-  margin-top: rem(10px);
-
-  .Article-heading {
-    color: $c-white;
-  }
-
-  .Article-tagline {
-    color: $c-white;
-  }
-
-  .Article-content {
-    color: shade($c-blue, 50%);
-    font-weight: bold;  
-  }
-}
-
 // -------------------------------------
 // States
 // -------------------------------------
@@ -59,13 +40,13 @@
 .Article-heading {
   text-transform: uppercase;
   margin: 0;
+  margin-bottom: 0.5rem;
 }
 
 // ----- Subtitle ----- //
 
 .Article-tagline {
-  margin: 0;
-  font-weight: bold;
+  font-style: italic;
 }
 
 // ----- Content ----- //

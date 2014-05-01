@@ -6,7 +6,9 @@
 // *************************************
 
 .Table {
-  text-transform: uppercase;
+  width       : 100%;
+  line-height : 2.5;
+  font-size   : 90%;
 }
 
 // -------------------------------------
@@ -18,11 +20,6 @@
 // -------------------------------------
 // Modifiers
 // -------------------------------------
-
-.Table--invertedBold {
-  color: $c-white;
-  font-weight: bold;
-}
 
 // -------------------------------------
 // States
@@ -41,5 +38,28 @@
 // -------------------------------------
 
 .Table-heading {
-  padding-bottom: $l-whiteSpace;
+  padding-bottom   : $l-whiteSpace;
+  border-bottom    : 2px solid $c-black;
+  background-color : rgba($c-green,0.75);
+  font-weight      : bold;
+}
+
+.Table-cell {
+  &:first-of-type {
+    padding-left : 0.5em;
+    text-align   : left;
+  }
+}
+
+.Table-cell--footnote {
+  text-align : left;
+  font-style : italic;
+}
+
+.Table-row {
+  border-bottom : 1px solid gray;
+  transition    : background-color 0.3s ease;
+  &:hover {
+    background-color: rgba($c-white,0.5);
+  }
 }
