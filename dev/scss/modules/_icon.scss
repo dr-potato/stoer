@@ -53,6 +53,14 @@
   }
 }
 
+.Icon--qrcode {
+  fill: $c-black;
+  transition: fill 0.3s ease;
+  &:hover {
+    fill: gray;
+  }
+}
+
 // -------------------------------------
 // States
 // -------------------------------------

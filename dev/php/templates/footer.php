@@ -32,6 +32,9 @@
       <a href="http://nl.linkedin.com/pub/esther-van-de-laak/12/96/ba0" class="u-hideUnderline Footer-social">
         <svg class="Icon Icon--alone Icon--linkedin" viewBox="0 0 128 128"><use xlink:href="#icon-linkedin"></use></svg>
       </a>
+      <a href="/app" class="u-hideUnderline Footer-social">
+        <svg class="Icon Icon--alone Icon--qrcode" viewBox="0 0 128 128"><use xlink:href="#icon-qrcode"></use></svg>
+      </a>
     </div>
   </div>
   <!-- Copyright info -->
