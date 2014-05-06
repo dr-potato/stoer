@@ -29,6 +29,30 @@
   width: 2rem;
 }
 
+.Icon--twitter {
+  fill: $c-black;
+  transition: fill 0.3s ease;
+  &:hover {
+    fill: #55ACEE;
+  }
+}
+
+.Icon--facebook {
+  fill: $c-black;
+  transition: fill 0.3s ease;
+  &:hover {
+    fill: #3B5998;
+  }
+}
+
+.Icon--linkedin {
+  fill: $c-black;
+  transition: fill 0.3s ease;
+  &:hover {
+    fill: #0073B2;
+  }
+}
+
 // -------------------------------------
 // States
 // -------------------------------------

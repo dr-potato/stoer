@@ -5,7 +5,7 @@
 //
 // *************************************
 
-$(function() {
+$(document).ready(function() {
   var menu = $('.Navigation-list--parent');
   var menuToggle = $('#js-navToggle');
 

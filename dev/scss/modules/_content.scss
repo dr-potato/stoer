@@ -7,6 +7,8 @@
 
 .Content {
   @include outer-container;
+  padding-left: $l-insideGutter;
+  padding-right: $l-insideGutter;
   margin-bottom: 2rem;
 }
 
@@ -41,25 +43,37 @@
 // ----- Article area ----- //
 
 .Content-articles {
-  @include span-columns(7);
-  margin-top: 2rem;
+  @include span-columns(12);
+
+  @include media ($bp-jack) {
+    @include span-columns(7);
+    margin-top: 2rem;    
+  }
 }
 
 .Content-articles--half {
-  @include span-columns(3 of 7);
-  &:last-of-type {
-    @include shift(1 of 7);
+  @include span-columns(12);
+
+  @include media ($bp-jack) {
+    @include span-columns(3 of 7);
+    &:last-of-type {
+      @include shift(1 of 7);
+    }
   }
 }
 
 // ----- Sidebar area ----- //
 
 .Content-sidebar {
-  @include span-columns(4);
-  @include shift(1);
+  @include span-columns(12);
   background    : $c-green;
+  padding       : 0 1em;
   margin-top    : 2rem;
   margin-bottom : 2rem;
-  padding       : 0 1em;
   text-align    : center;
+  
+  @include media ($bp-jack) {
+    @include span-columns(4);
+    @include shift(1);
+  }
 }

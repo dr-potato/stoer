@@ -71,3 +71,29 @@
 // -------------------------------------
 // Inbox
 // -------------------------------------
+
+// Post pagination
+
+.Pagination {
+  display: table;
+  margin: 0 auto 2rem;
+  a {
+    @extend .Button;
+    @extend .Button--brand;
+  }
+}
+
+// Comments
+
+.comment-respond {
+  label {
+    display: block;
+  }
+  input,
+  textarea {
+    width: 100%;
+  }
+  #submit {
+    height: 3rem;
+  }
+}

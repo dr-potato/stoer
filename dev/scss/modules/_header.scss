@@ -6,8 +6,6 @@
 // *************************************
 
 .Header {
-  background-image: url("../img/bg-visitekaartjes.jpg");
-  background-size: cover;
   padding-top: 1rem;
   border-bottom: 5px solid $c-green;
 }
@@ -22,7 +20,30 @@
 // Modifiers
 // -------------------------------------
 
-// .Module--modifierName
+.Header--bg1 {
+  background: url("../img/bg-header-1.jpg");
+  background-size: cover;
+}
+.Header--bg2 {
+  background: url("../img/bg-header-2.jpg");
+  background-size: cover;
+}
+.Header--bg3 {
+  background: url("../img/bg-header-3.jpg");
+  background-size: cover;
+}
+.Header--bg4 {
+  background: url("../img/bg-header-4.jpg");
+  background-size: cover;
+}
+.Header--bg5 {
+  background: url("../img/bg-header-5.jpg");
+  background-size: cover;
+}
+.Header--bg6 {
+  background: url("../img/bg-header-6.jpg");
+  background-size: cover;
+}
 
 // -------------------------------------
 // States

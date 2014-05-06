@@ -12,10 +12,12 @@
         <p class="Article-content"><?php the_content('Read the rest of this entry &raquo;'); ?></p>
       </article>
     <?php endwhile; endif; ?>
-    <nav>
-      <div><?php next_posts_link('&laquo; Older Entries') ?></div>
-      <div><?php previous_posts_link('Newer Entries &raquo;') ?></div>
+
+    <nav class="Pagination">
+      <div><?php next_posts_link('&laquo; Ouder') ?></div>
+      <div><?php previous_posts_link('Nieuwer &raquo;') ?></div>
     </nav>
+    
     </div>
     <?php get_sidebar(); ?>
   </main>

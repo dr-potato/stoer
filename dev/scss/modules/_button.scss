@@ -34,9 +34,13 @@
 // ----- Brand ----- //
 
 .Button--brand {
-  color: $c-white;
-  fill: $c-white;
-  background: $c-blue;
+  color: $c-black;
+  fill: $c-black;
+  background: $c-green;
+  transition: background 0.3s ease;
+  &:hover {
+    background: darken($c-green, 5%);
+  }
 }
 
 // -------------------------------------

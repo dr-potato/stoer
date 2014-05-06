@@ -21,6 +21,99 @@
 // Modifiers
 // -------------------------------------
 
+.Table--voorwaarden {
+  line-height: 1.5;
+  font-size: 100%;
+
+  td {
+    vertical-align: top;
+  }
+  td:first-of-type {
+    padding-right: 1em;
+  }
+}
+
+.Table--rechtsbijstand {
+  @include media (max-width $bp-reacher) {
+    .Table-row {
+      display: block;
+      &:first-of-type {
+        display: none;
+      }
+      &:nth-of-type(2) {
+        border-top: 1px solid gray;
+      }
+    }
+    .Table-cell {
+      font-size: 0.8em;
+      display: block;
+      position: relative;
+      padding-left: 50%; 
+      text-align: right;
+    }
+    .Table-cell:before { 
+      position: absolute;
+      left: 6px;
+      width: 45%; 
+      padding-right: 10px; 
+      white-space: nowrap;
+      text-align: left;
+    }
+    // Hide "t/m" labels
+    .Table-cell:nth-of-type(2) { display: none; }
+    .Table-cell:nth-of-type(5) { display: none; }
+    // Apply labels
+    .Table-cell:nth-of-type(1):before { content: "Alleenstaande norm*, vanaf:"; }
+    .Table-cell:nth-of-type(3):before { content: "Alleenstaande norm*, tot:"; }
+    .Table-cell:nth-of-type(4):before { content: "Gezamenlijke huishoudingnorm*, vanaf:"; }
+    .Table-cell:nth-of-type(6):before { content: "Gezamenlijke huishoudingnorm*, tot:"; }
+    .Table-cell:nth-of-type(7):before { content: "Eigen bijdrage:"; }
+    // Don't display label before footnote
+    .Table-cell:nth-of-type(1).Table-cell--footnote {
+      padding-left: 0;
+      &:before { content: ""; }
+    }
+  }
+}
+
+.Table--tarieven {
+  @include media (max-width $bp-reacher) {
+    .Table-row {
+      display: block;
+      // Hide first row
+      &:first-of-type {
+        display: none;
+      }
+      // Replace border below first row
+      &:nth-of-type(2) {
+        border-top: 1px solid gray;
+      }
+    }
+    .Table-cell:nth-of-type(2) {
+      font-size: 0.8em;
+      display: block;
+      position: relative;
+      padding-left: 50%; 
+      text-align: right;
+      &:before { 
+        position: absolute;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+        text-align: left;
+      }
+    }
+    // Hide al first cells
+    .Table-cell:first-of-type { display: none; }
+    // Apply labels
+    .Table-row:nth-of-type(2) .Table-cell:nth-of-type(2):before { content: "Bezwaar-, beklag,- en verzoekschriftprocedures:"; }
+    .Table-row:nth-of-type(3) .Table-cell:nth-of-type(2):before { content: "Kantonrechterprocedures:"; }
+    .Table-row:nth-of-type(4) .Table-cell:nth-of-type(2):before { content: "Politierechter- , OM- en Jeugdzittingen:"; }
+    .Table-row:nth-of-type(5) .Table-cell:nth-of-type(2):before { content: "Meervoudige Kamerzittingen:"; }
+  }
+}
+
 // -------------------------------------
 // States
 // -------------------------------------
@@ -45,9 +138,11 @@
 }
 
 .Table-cell {
-  &:first-of-type {
-    padding-left : 0.5em;
-    text-align   : left;
+  @include media($bp-jack) {
+    &:first-of-type {
+      padding-left : 0.5em;
+      text-align   : left;
+    }    
   }
 }
 
