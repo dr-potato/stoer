@@ -5,6 +5,7 @@
     'menu_class' => '',
     'theme_location' => 'main-nav',
     'items_wrap' => ' <a href="#" title="Toggle the menu" id="js-navToggle" class="Navigation-menuToggle">
+                        <span class="Navigation-menuToggle-textLabel">Menu</span>
                         <svg class="Icon Icon--alone" viewBox="0 0 128 128"><use xlink:href="#icon-menu2"></use></svg>
                       </a>
                       <ul class="Navigation-list Navigation-list--parent">%3$s</ul>',

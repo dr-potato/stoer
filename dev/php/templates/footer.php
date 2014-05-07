@@ -23,13 +23,13 @@
     </div>
     <div class="Footer-column">
       <h5>Social</h5>
-      <a href="https://nl-nl.facebook.com/pages/Stoer-Advocatuur-Leiden/218296298204898" class="u-hideUnderline Footer-social">
+      <a target="_blank" href="https://nl-nl.facebook.com/pages/Stoer-Advocatuur-Leiden/218296298204898" class="u-hideUnderline Footer-social">
         <svg class="Icon Icon--alone Icon--facebook" viewBox="0 0 128 128"><use xlink:href="#icon-facebook2"></use></svg>
       </a>
-      <a href="https://twitter.com/TogaTweets" class="u-hideUnderline Footer-social">
+      <a target="_blank" href="https://twitter.com/TogaTweets" class="u-hideUnderline Footer-social">
         <svg class="Icon Icon--alone Icon--twitter" viewBox="0 0 128 128"><use xlink:href="#icon-twitter2"></use></svg>
       </a>
-      <a href="http://nl.linkedin.com/pub/esther-van-de-laak/12/96/ba0" class="u-hideUnderline Footer-social">
+      <a target="_blank" href="http://nl.linkedin.com/pub/esther-van-de-laak/12/96/ba0" class="u-hideUnderline Footer-social">
         <svg class="Icon Icon--alone Icon--linkedin" viewBox="0 0 128 128"><use xlink:href="#icon-linkedin"></use></svg>
       </a>
       <a href="/app" class="u-hideUnderline Footer-social">

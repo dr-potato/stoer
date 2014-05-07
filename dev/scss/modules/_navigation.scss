@@ -100,3 +100,11 @@
     display: none;
   }
 }
+
+.Navigation-menuToggle-textLabel {
+  display: none;
+}
+
+.no-svg .Navigation-menuToggle-textLabel {
+  display: inline;
+}
