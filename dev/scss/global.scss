@@ -97,3 +97,19 @@
     height: 3rem;
   }
 }
+
+// Wordpress crap
+
+#reply-title {
+  @extend .u-textShout;
+  @extend %u-textH5;
+}
+
+// Image frame
+
+.imageFrame--right {
+  margin-left: 2em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border: 4px solid $c-green;
+}

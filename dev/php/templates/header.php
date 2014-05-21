@@ -41,7 +41,7 @@
   </head>
   <body <?php body_class(); ?> >
 
-  <header class="Header">
+  <header class="Header <?php include 'includes/header-bg.php'; ?>">
     <div class="Header-nav">
       <div class="u-gridContainer">
         <!-- Main navigation -->

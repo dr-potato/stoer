@@ -21,7 +21,7 @@
 			<nav>
 				<div><?php previous_comments_link( __( '<span class="meta-nav">&larr;</span> Older Comments', '' ) ); ?></div>
 				<div><?php next_comments_link( __( 'Newer Comments <span class="meta-nav">&rarr;</span>', '' ) ); ?></div>
-			</nav> 
+			</nav>
 <?php endif; // check for comment navigation ?>
 
 			<ol class="commentlist">
@@ -42,7 +42,7 @@
 	 */
 	if ( ! comments_open() ) :
 ?>
-	<p class="nocomments"><?php _e( 'Er zijn geen reacties voor dit bericht', '' ); ?></p>
+	<!-- Er zijn geen reacties -->
 <?php endif; // end ! comments_open() ?>
 
 <?php endif; // end have_comments() ?>

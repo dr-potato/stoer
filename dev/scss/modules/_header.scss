@@ -20,29 +20,76 @@
 // Modifiers
 // -------------------------------------
 
-.Header--bg1 {
-  background: url("../img/bg-header-1.jpg");
+.Header--advocaat {
+  background: url("../img/header-bg/visitekaartjes.png");
   background-size: cover;
+  background-position: center center;
 }
-.Header--bg2 {
-  background: url("../img/bg-header-2.jpg");
+
+.Header--rechtsgebieden {
+  background: url("../img/header-bg/boeken.jpg");
   background-size: cover;
+  background-position: right center;
 }
-.Header--bg3 {
-  background: url("../img/bg-header-3.jpg");
+
+.Header--tarieven {
+  background: url("../img/header-bg/spaarvarkens.jpg");
   background-size: cover;
+  background-position: right center;
 }
-.Header--bg4 {
-  background: url("../img/bg-header-4.jpg");
+
+.Header--referenties {
+  background: url("../img/header-bg/motor.jpg");
   background-size: cover;
+  background-position: right center;
 }
-.Header--bg5 {
-  background: url("../img/bg-header-5.jpg");
+
+.Header--tips {
+  background: url("../img/header-bg/toga.jpg");
   background-size: cover;
+  background-position: center center;
 }
-.Header--bg6 {
-  background: url("../img/bg-header-6.jpg");
+
+.Header--actueel {
+  background: url("../img/header-bg/logo.png");
   background-size: cover;
+  background-position: right center;
+}
+
+.Header--contact {
+  background: url("../img/header-bg/maps.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.Header--app {
+  background: url("../img/header-bg/visitekaartjes.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.Header--privacy {
+  background: url("../img/header-bg/motor.jpg");
+  background-size: cover;
+  background-position: right center;
+}
+
+.Header--voorwaarden {
+  background: url("../img/header-bg/motor.jpg");
+  background-size: cover;
+  background-position: right center;
+}
+
+.Header--disclaimer {
+  background: url("../img/header-bg/motor.jpg");
+  background-size: cover;
+  background-position: right center;
+}
+
+.Header--default {
+  background: url("../img/header-bg/visitekaartjes.png");
+  background-size: cover;
+  background-position: center center;
 }
 
 // -------------------------------------
