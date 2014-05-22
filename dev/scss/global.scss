@@ -105,11 +105,15 @@
   @extend %u-textH5;
 }
 
+.form-allowed-tags {
+  display: none;
+}
+
 // Image frame
 
 .imageFrame--right {
   margin-left: 2em;
   margin-right: 1em;
   margin-bottom: 1em;
-  border: 4px solid $c-green;
+  border: 4px solid $c-white;
 }
